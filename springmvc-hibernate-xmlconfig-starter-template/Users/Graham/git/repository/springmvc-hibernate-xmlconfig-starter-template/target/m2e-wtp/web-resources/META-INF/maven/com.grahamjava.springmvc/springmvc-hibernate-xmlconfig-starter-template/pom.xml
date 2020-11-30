@@ -21,14 +21,6 @@
 		<hsqldb.version>1.8.0.10</hsqldb.version>
 	</properties>
 	<dependencies>
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-
 		<!-- Spring MVC Dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -42,13 +34,6 @@
 			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-test</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
-
 
 		<!-- Hibernate Core -->
 		<dependency>
@@ -107,10 +92,16 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- A way of adding a reference non maven repo Oracle driver .. Iin this 
-			app I have a lib dir and classpath ref <dependency> <groupId>com.oracle</groupId> 
-			<artifactId>ojdbc</artifactId> <version>8</version> <scope>system</scope> 
-			<systemPath>C:/oracleJAVA_JDBC/ojdbc8.jar</systemPath> </dependency> -->
+<!--  A way of adding a reference non maven repo Oracle driver .. Iin this app I have a lib dir and classpath ref
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc</artifactId>
+			<version>8</version>
+			<scope>system</scope>
+			<systemPath>C:/oracleJAVA_JDBC/ojdbc8.jar</systemPath>
+			
+		</dependency>
+-->
 
 	</dependencies>
 
